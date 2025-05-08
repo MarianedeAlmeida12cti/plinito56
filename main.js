@@ -41,3 +41,50 @@ function somar (valor1, valor2) {
  alert(soma1)
  alert(soma2)
  */
+
+/*
+EXERCICIO 5
+
+
+function parOuImpar(numero) {
+    if(numero %2 === 0) {
+        return "PAR"
+    }
+
+    return "IMPAR"
+
+}
+
+let resultado1 = parOuImpar(10)
+let resultado1 = parOuImpar(15)
+
+alert(`O numero 10 é ${resultado1}`)
+alert(`O numero 15 é ${resultado2}`)
+*/
+
+/*
+
+EXERCICIO 6
+
+document.querySelector("button").addEventListener("click", function (){
+    alert(`Clicou no botão`)
+})
+*/
+
+/*
+EXERCICIO 7
+
+document.querySelector("button").addEventListener("click", () => {
+    alert(`Clicou no botão`)
+})
+*/
+
+/*
+EXERCICIO 8
+
+let somar = (valor1, valor2) => valor1 + valor2
+
+let resultadoSoma = somar(20, 30)
+
+alert(resultadoSoma)
+*/
